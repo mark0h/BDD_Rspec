@@ -6,6 +6,8 @@ gem 'rails', '~> 5.0.0'
 
 gem 'bootstrap-sass', '~>3.3.6'
 gem 'autoprefixer-rails', '~>5.2.0'
+gem 'guard-rspec', require: false
+gem 'spring-commands-rspec'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
